@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Sagar/Music/Advanced%20Mlops/MLOPS%20Project-1/mlruns/0/f7d418717cef495eb7a69b5109912811/artifacts
+end_time: 1743502296153
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f7d418717cef495eb7a69b5109912811
+run_name: clean-slug-518
+run_uuid: f7d418717cef495eb7a69b5109912811
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1743502288642
+status: 3
+tags: []
+user_id: Sagar
