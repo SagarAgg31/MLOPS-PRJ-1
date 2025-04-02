@@ -9,7 +9,7 @@ class CustomException(Exception):
 
     @staticmethod
     def get_detailed_error_message(error_message, error_detail):
-        _, _, exc_tb = error_detail.exc_info()
+        _, _, exc_tb = traceback.sys.exc_info()
         filename = exc_tb.tb_frame.f_code.co_filename
         line_number = exc_tb.tb_lineno
         return f"Error occurred in script: {filename} at line {line_number} - {error_message}"
