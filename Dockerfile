@@ -17,6 +17,6 @@ RUN pip install --no-cache-dir -e .
 
 RUN python pipeline/training_pipeline.py
 
-EXPOSE PORT 5000
+EXPOSE 5000
 
 CMD ["python", "application.py"]
