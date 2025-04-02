@@ -12,5 +12,5 @@ imbalanced-learn
 lightgbm
 mlflow
 flask
--e .
+#-e .
 ## pip install -e .
