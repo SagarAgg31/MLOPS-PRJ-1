@@ -4,7 +4,7 @@ pipeline{
     environment{
         VENV_DIR = 'venv'
     }
-
+    
     stages{
         stage('Cloning Github repo to Jenkins'){
             steps{
