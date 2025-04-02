@@ -32,7 +32,6 @@ class DataIngestion:
         except Exception as e:
             logger.error("Error occurred while downloading the file from GCP")
             raise CustomException(e,sys) from e
-        
     def train_test_split(self):
         try:
             logger.info("Starting the Splitting process")
