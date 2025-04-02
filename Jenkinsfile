@@ -2,7 +2,7 @@ pipeline{
     agent any
 
     environment {
-        VENV_DIR = 'venv',
+        VENV_DIR = 'venv'
         GCP_PROJECT = "ace-wording-455116-q0"
         GCLOUD_PATH = "/var/jenkins_home/google-cloud-sdk/bin"
     }
