@@ -11,4 +11,6 @@ seaborn
 imbalanced-learn
 lightgbm
 mlflow
+flask
+-e .
 ## pip install -e .
